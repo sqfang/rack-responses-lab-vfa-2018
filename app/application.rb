@@ -3,6 +3,5 @@ class Application
     time = Time.now
     resp = Rack::Response.new
     resp.write "Good Morning!"
-    resp.write "Good Afternoon!"
   end
 end
