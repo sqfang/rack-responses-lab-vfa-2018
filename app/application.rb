@@ -1,6 +1,6 @@
 class Application
   def call(env)
-    time = Time.now
+    resp = Rack::Response.now
     resp.finish
   end
 end
